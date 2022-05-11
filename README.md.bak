@@ -4,7 +4,7 @@ This program allows the transmission matrix of a multimode fibre or a scattering
 
 This program only performs the measurement. The input holograms and output fields are stored as text files. To subsequently calculate the transmission matrix CamLab-TMatrix-Calculation scripts can be used.
 
-This program allows a random hologram, a pre-calculated hologram, or a binary Spade/Club/Heart/Diamond hologram to be displayed, and the corresponding output field to be recorded. This can be used for testing purposes. These holograms can be generated using appropriate scripts from CamLab-TMatrix-Imaging
+This program allows a random hologram, a pre-calculated hologram, or a binary Spade/Club/Heart/Diamond hologram to be displayed, and the corresponding output field to be recorded. This can be used for testing purposes.
 
 The measurement routines implement the phase drift correction algorithms described in my [Applied Optics paper](https://doi.org/10.1364/AO.454679), "Robust Correction of Interferometer Phase Drift in Transmission Matrix Measurements".
 
