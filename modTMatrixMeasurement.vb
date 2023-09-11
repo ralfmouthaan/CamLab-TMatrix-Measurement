@@ -47,7 +47,7 @@ Module modTMatrixMeasurement
         For i = 0 To NoModes - 1
             Holo.arrMacroPixels(i) = Double.NaN
         Next
-        Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(Holo)
 
         ' Main loop
@@ -151,7 +151,7 @@ Module modTMatrixMeasurement
             .bolCircularAperture = False,
             .RawWidth = MeasurementSetup.RefHoloWidth
         }
-        RefHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        RefHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(RefHolo)
 
         'Set up object hologram
@@ -163,7 +163,7 @@ Module modTMatrixMeasurement
             .bolApplyZernikes = True,
             .dblMaxTilt = 100
         }
-        ObjHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        ObjHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(ObjHolo)
 
         ' Main loop
@@ -262,7 +262,7 @@ Module modTMatrixMeasurement
             .bolCircularAperture = False,
             .RawWidth = MeasurementSetup.RefHoloWidth
         }
-        RefHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        RefHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(RefHolo)
 
         'Set up object hologram
@@ -271,7 +271,7 @@ Module modTMatrixMeasurement
             .RawWidth = MeasurementSetup.ObjHoloWidth
         }
         ReDim ObjHolo.arrMacroPixels(NoModes - 1)
-        ObjHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        ObjHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(ObjHolo)
 
         ' Main loop
@@ -366,7 +366,7 @@ Module modTMatrixMeasurement
             .bolVisible = True,
             .bolCircularAperture = False
         }
-        Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(Holo)
         ReDim Holo.arrMacroPixels(NoModes - 1)
 
@@ -620,7 +620,7 @@ Module modTMatrixMeasurement
             .bolVisible = True,
             .bolCircularAperture = False
         }
-        Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(Holo)
         ReDim Holo.arrMacroPixels(NoModes - 1)
         ReDim arrHolo(NoModes - 1)
@@ -669,7 +669,7 @@ Module modTMatrixMeasurement
             .bolCircularAperture = False,
             .RawWidth = MeasurementSetup.RefHoloWidth
         }
-        RefHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        RefHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(RefHolo)
 
         'Set up object hologram
@@ -679,7 +679,7 @@ Module modTMatrixMeasurement
         }
         ReDim ObjHolo.arrMacroPixels(NoModes - 1)
         ReDim arrHolo(NoModes - 1)
-        ObjHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        ObjHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(ObjHolo)
 
         'reference hologram
@@ -738,7 +738,7 @@ Module modTMatrixMeasurement
             Holo.arrMacroPixels(i) = Double.NaN
         Next
         ReDim arrHolo(NoModes - 1)
-        Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(Holo)
 
         'Reference hologram
@@ -791,7 +791,7 @@ Module modTMatrixMeasurement
             .bolCircularAperture = False,
             .RawWidth = MeasurementSetup.RefHoloWidth
         }
-        RefHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        RefHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(RefHolo)
 
         'Set up object hologram
@@ -804,7 +804,7 @@ Module modTMatrixMeasurement
             .dblMaxTilt = 4
         }
         ReDim arrHolo(NoModes - 1)
-        ObjHolo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+        ObjHolo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
         MeasurementSetup.SLM.lstHolograms.Add(ObjHolo)
 
         'Reference hologram

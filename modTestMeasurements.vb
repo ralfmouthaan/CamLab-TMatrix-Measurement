@@ -29,7 +29,7 @@ Namespace TestMeasurements
 
             Holo = New clsMacropixelHologram
             Holo.RawWidth = MeasurementSetup.ObjHoloWidth
-            Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+            Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
             Holo.bolApplyZernikes = True
             Holo.bolVisible = True
             Holo.bolCircularAperture = False
@@ -62,7 +62,7 @@ Namespace TestMeasurements
 
             Holo = New clsMacropixelHologram
             Holo.RawWidth = MeasurementSetup.ObjHoloWidth
-            Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+            Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
             Holo.bolApplyZernikes = True
             Holo.bolVisible = True
             Holo.bolCircularAperture = False
@@ -85,7 +85,7 @@ Namespace TestMeasurements
 
             Holo = New clsMacropixelHologram
             Holo.RawWidth = MeasurementSetup.ObjHoloWidth
-            Holo.LoadZernikes("D:\RPM Data Files\Tx1 Zernikes.txt")
+            Holo.LoadZernikes("C:\Instrument Setup\Tx1 Zernikes.txt")
             Holo.bolApplyZernikes = True
             Holo.bolVisible = True
             Holo.bolCircularAperture = False

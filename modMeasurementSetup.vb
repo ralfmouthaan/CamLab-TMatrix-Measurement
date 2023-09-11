@@ -15,18 +15,18 @@ Public Class clsMeasurementSetup
 
     Public Camera As clsCamera
     Public SLM As clsSLM
-    Public ReadOnly ObjHoloWidth As Integer = 1250
-    Public ReadOnly RefHoloWidth As Integer = 1250
+    Public ReadOnly ObjHoloWidth As Integer = 500
+    Public ReadOnly RefHoloWidth As Integer = 500
 
     Public Sub New()
 
         ' Set up SLM
         SLM = New clsSLM
-        SLM.intScreenNo = 1
+        SLM.intScreenNo = 2
 
         'Set up Camera
-        Camera = New clsThorlabsCamDC
-        Camera.Load("D:\RPM Data Files\Output Camera Pol 1.txt")
+        Camera = New clsBlackflyCam
+        Camera.Load("C:\Instrument Setup\Input Camera.txt")
 
     End Sub
     Public Sub Startup()

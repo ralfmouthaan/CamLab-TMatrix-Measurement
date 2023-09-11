@@ -107,7 +107,7 @@ Public Class clsMacropixelHologram
     End Sub
     Private Sub PopulateHadamardArray()
 
-        Dim reader As New IO.StreamReader("D:/RPM Data Files/Hadamard.txt")
+        Dim reader As New IO.StreamReader("C:\Instrument Setup\Hadamard.txt")
         Dim splitstr() As String
 
         ReDim _arrHadamard(NoModes - 1, NoModes - 1)

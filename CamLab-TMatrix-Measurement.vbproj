@@ -96,6 +96,9 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="SpinnakerNETd_v140">
+      <HintPath>..\..\..\..\Libraries\Spinnaker\bin64\vs2022\SpinnakerNETd_v140.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
@@ -253,6 +256,7 @@
     <Compile Include="Holograms\clsFourierMacropixelHologram.vb" />
     <Compile Include="Holograms\clsMacropixelHologram.vb" />
     <Compile Include="Holograms\clsHologram.vb" />
+    <Compile Include="Instruments\clsBlackflyCam.vb" />
     <Compile Include="Instruments\clsCamera.vb" />
     <Compile Include="Instruments\clsInstrument.vb" />
     <Compile Include="Instruments\clsSLM.vb" />

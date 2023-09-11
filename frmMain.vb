@@ -164,7 +164,7 @@ Public Class frmMain
         Dim Path As String
 
         DisableControls()
-        Path = "C:\Users\Ralf\Desktop\T-Matrix Measurement\bin\Debug\32x32 Targets\"
+        Path = "C:\Users\ipas.labpcs\Desktop\CamLab-TMatrix-Measurement\32x32 Targets\"
         Call TestMeasurements.DisplayHologramRecordImage(Path + "Club Target - Amplitude.txt", Path + "Club Result - Amplitude.txt")
         Call TestMeasurements.DisplayHologramRecordImage(Path + "Diamond Target - Amplitude.txt", Path + "Diamond Result - Amplitude.txt")
         Call TestMeasurements.DisplayHologramRecordImage(Path + "Heart Target - Amplitude.txt", Path + "Heart Result - Amplitude.txt")
